@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ece8e5"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/journal"
+            android:icon="@drawable/web_hi_res_512"
+            android:title="Журнал" />
+        <item
+            android:id="@+id/setStud"
+            android:icon="@drawable/web_hi_res_5123"
+            android:title="Добавить студента" />
+        <item
+            android:id="@+id/getStud"
+            android:icon="@drawable/web_hi_res_5122"
+            android:title="Студенты" />
+        <item
+            android:id="@+id/setPredmet"
+            android:icon="@drawable/web_hi_res_5123"
+            android:title="Добавить предмет" />
+
+        <item
+            android:id="@+id/getPredmet"
+            android:icon="@drawable/web_hi_res_5122"
+            android:title="Предметы" />
+        <item
+            android:id="@+id/setOtdel"
+            android:icon="@drawable/web_hi_res_5123"
+            android:title="Добавить отделение" />
+        <item
+            android:id="@+id/getOtdel"
+            android:icon="@drawable/web_hi_res_5122"
+            android:title="Отделения" />
+        <item
+            android:id="@+id/setOzh"
+            android:icon="@drawable/web_hi_res_5123"
+            android:title="Поставить оценку" />
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/web_hi_res_5121"
+                android:title="Сохранить отчет в Excel" />
+
+        </menu>
+    </item>
+
+</menu>

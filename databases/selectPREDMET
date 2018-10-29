@@ -1,0 +1,6 @@
+select predmet.predmet_name , ball, date_ozh from stud
+Inner join ozhenka ON
+ozhenka.stud_id = stud.stud_id
+INNER JOIN predmet ON
+predmet.predmet_id = ozhenka.predmet_id
+WHERE stud.stud_id = 1 
