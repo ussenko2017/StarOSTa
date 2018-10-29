@@ -101,7 +101,7 @@ public class addOzhFragment extends Fragment {
         itemsOTDEL_ID = (ArrayList) itemsArr_stud.get(4);
         itemsGROUP = (ArrayList) itemsArr_stud.get(5);
 
-
+//
 //comment
         final Spinner spinner = (Spinner) view.findViewById(R.id.spinner5);
         final Spinner spinner2 = (Spinner) view.findViewById(R.id.spinner6);
