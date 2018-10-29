@@ -107,7 +107,7 @@ public class addOzhFragment extends Fragment {
         final Spinner spinner2 = (Spinner) view.findViewById(R.id.spinner6);
         final EditText editText = (EditText) view.findViewById(R.id.editText9);
         Button button = (Button) view.findViewById(R.id.button5);
-//comment
+//commen
         try {
             SpinnerAdapter adapter = new ArrayAdapter<>(view.getContext(),
                     android.R.layout.simple_spinner_dropdown_item, predmet_itemsTEXT);
